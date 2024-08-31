@@ -18,7 +18,7 @@ function App() {
 	};
 
 	return (
-		<React.Fragment>
+		<>
 			<MainHeader
 				isAuthenticated={isLoggedIn}
 				onLogout={logoutHandler}
@@ -31,7 +31,7 @@ function App() {
 					<Home onLogout={logoutHandler} />
 				)}
 			</main>
-		</React.Fragment>
+		</>
 	);
 }
 
