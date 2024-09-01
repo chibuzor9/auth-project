@@ -34,5 +34,13 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.9.1",
+		"eslint": "^8.57.0",
+		"eslint-plugin-react": "^7.35.0",
+		"eslint-plugin-react-hooks": "^4.6.2",
+		"eslint-plugin-react-refresh": "^0.4.11",
+		"globals": "^15.9.0"
 	}
 }
