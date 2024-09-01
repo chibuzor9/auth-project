@@ -60,7 +60,7 @@ const Login = () => {
 
 	const [emailState, dispatchEmail] = useReducer(
 		emailReducer,
-		{ value: '', isValid: null }
+		{ value: '', isValid: null },
 	);
 
 	const [pwdState, dispatchPwd] = useReducer(pwdReducer, {
@@ -127,7 +127,7 @@ const Login = () => {
 		if (formIsValid) {
 			context.onLogin(
 				emailState.value,
-				pwdState.value
+				pwdState.value,
 			);
 		} else if (!emailIsValid) {
 			emailInputRef.current.focus();

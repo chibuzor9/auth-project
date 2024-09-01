@@ -10,11 +10,11 @@ const Input = React.forwardRef((props, ref) => {
 		inputRef.current.focus();
 	};
 
-    useImperativeHandle(ref, () => {
-        return {
-            focus: activate
-        }
-    })
+	useImperativeHandle(ref, () => {
+		return {
+			focus: activate,
+		};
+	});
 
 	return (
 		<div
